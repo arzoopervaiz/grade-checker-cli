@@ -1,0 +1,27 @@
+{
+  "name": "grade-checker-cli",
+  "version": "1.0.3",
+  "description": "This program, built with TypeScript, Inquirer, and Chalk. Based on the percentage provided, it displays the corresponding grade and eligibility for scholarships.",
+  "main": "app.js",
+  "type": "module",
+  "bin": "app.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arzoopervaiz"
+  },
+  "author": "Arzoo pervaiz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
